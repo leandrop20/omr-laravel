@@ -1,0 +1,20 @@
+{
+    "name": "pinheiro/omr-laravel",
+    "type": "project",
+    "license": "MIT",
+    "description": "Optical Mark Recognition with Laravel",
+    "authors": [
+        {
+            "name": "LeandroP20",
+            "email": "byleandropinheiro@gmail.com"
+        }
+    ],
+    "minimun-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+            "Pinheiro\\OrmLaravel\\": "src/",
+    		"Pinheiro\\OrmLaravel\\Tests\\": "tests/"
+    	}
+    },
+    "require": {}
+}
